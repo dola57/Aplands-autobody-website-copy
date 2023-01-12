@@ -1,0 +1,402 @@
+.backgroundimage{
+  background-image: url("images/header-bg.png");
+}
+
+body{
+padding: 0;
+margin: 0;
+}
+
+.navwrapper2{
+  max-width: 1190px;
+  margin: auto;
+}
+
+.logocontent{
+  /*padding-right: 40px;*/
+  padding-top: 10px;
+  float: left;
+  margin-left: -9px;
+}
+
+.uppermenu ul li {
+	font-size: 18px;
+	font-family: Open Sans;
+	color: #1fb2f5;
+	float: left;
+	padding-right: 39px;
+	list-style: none;
+}
+
+.menu{
+  float: right;
+  margin-right: -45px;
+}
+
+.uppermenu{
+  margin-top: 5px;
+  float: right;
+  padding-right: 5px;
+}
+
+.uppermenu::after{
+  display: table;
+  content: "";
+ clear: both;
+}
+
+.backgroundimage::after{
+  display: table;
+  content: "";
+ clear: both;
+}
+
+.lowermenu ul li {
+	float: left;
+	font-size: 25px;
+	font-family: Open Sans;
+	color: #F5F5DC;
+	margin-top: 39px;
+	list-style: none;
+	padding-right: 20px;
+	margin-left: 0px;
+	cursor: pointer;
+	margin-right: 12px;
+}
+
+.img {
+	background-image: url("images/header-phone.png");
+	padding-left: 29px;
+	background-repeat: no-repeat;
+	background-position-x: 4px;
+	background-position-y: 4px;
+  cursor: pointer;
+}
+
+.lowermenu ul li:hover{
+  color: #48D1CC;
+  border-bottom: 2px solid #48D1CC;
+  padding-bottom: 22px;
+}
+
+.smilingman{
+  position: relative;
+}
+
+.smilingman img {
+	width: 100%;
+}
+
+.smilingmancontent {
+	position: absolute;
+	top: 20%;
+	left: 56%;
+	color: white;
+	font-size: 40px;
+
+}
+
+.smilingmancontent h3{
+  font-family: 'Teko', sans-serif;
+}
+
+.smilingmancontent p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 32px;
+}
+
+.imgbelowsmilingman {
+	background-image: url("../images/testimonial.png");
+	margin-top: -4px;
+	padding-bottom: 166px;
+	font-size: 20px;
+	/* padding-bottom: ; */
+	color: white;
+	text-align: center;
+	padding-bottom: 90px;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	padding-top: 66px;
+}
+
+.imgbelowsmilingman p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	font-weight: 600;
+	letter-spacing: 0px;
+	text-align: center;
+	padding-left: 190px;
+	margin-top: -6px;
+  max-width: 70%;
+}
+.ang {
+	text-transform: uppercase;
+	font-size: 19px;
+	font-family: Open Sans;
+	font-weight: 700px;
+	box-sizing: border-box;
+	font-size: 18px;
+	text-align: center;
+	letter-spacing: 2px;
+	text-align: center;
+	text-align: center;
+	/* padding-left: 8px; */
+	margin-left: 86px;
+	/* margin-top: 1px; */
+	padding-top: 26px;
+}
+/*../ dile css theke ber hoe images folder ta pabe*/
+.imgs {
+	float: left;
+	padding-top: 54px;
+	padding-right: 0px;
+	/* margin-left: 105px; */
+	font-family: 'Teko', sans-serif;
+	text-align: center;
+	font-size: 37px;
+	color: grey;
+	cursor: pointer;
+	width: 20%;
+}
+
+.zigzag h4{
+  font-size: 44px;
+}
+
+.pos{
+
+/*  position: relative;*/
+}
+
+.zigzag {
+	/* text-align: -moz-left; */
+	max-width: 50%;
+	background-color:rgb(238, 238, 238);
+	float: left;
+	/* position: absolute; */
+	padding-bottom: 42px;
+}
+
+.zigzagwriting {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 33px;
+	text-align: right;
+	padding-right: 31px;
+}
+
+.you {
+	padding-left: 136px;
+}
+
+.we{
+  padding-left: 120px;
+}
+
+.zigzagwriting b{
+  font-weight: 400px;
+}
+
+.zigzag1{
+  max-width: 50%;
+  float: left;
+}
+
+.zigzag::after{
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.zigzag1::after{
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.zigzag1 img {
+	width: 100%;
+}
+
+.btn {
+	background-color: blue;
+	padding: 21px 44px;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: -6px;
+	/* margin-left: 2px; */
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.rer{
+  float: left;
+  width: 50%;
+}
+
+.block-4::after{
+  display: table;
+  content: "";
+  clear: both;
+}
+.rer img{
+  width: 100%;
+}
+
+.con-ind {
+	padding-left: 62px;
+	font-size: 25px;
+	padding-top: 35px;
+  font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+.con-ind p, h2 {
+	margin: 0 0 56px 0;
+	max-width: 415px;
+
+}
+
+.con-ind span{
+	margin: 0 0 16px 0;
+}
+
+.block-4 {
+	background: rgb(238, 238, 238);
+}
+
+.btn:hover{
+  opacity: 0.6;
+}
+
+.block-5 {
+	background: rgb(238, 238, 238);
+}
+
+.con-ind2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 29px;
+	text-align: right;
+	/* padding-left: 199px; */
+	padding-right: 113px;
+}
+
+.rere{
+  width: 50%;
+  float: left;
+}
+
+.rere img{
+  width: 100%;
+}
+
+.block-5::after{
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.midwriting{
+  font-family: 'Teko';
+  font-weight: 400;
+  text-align: center;
+  font-size: 52px;
+  color: #606060;
+}
+
+.col-1 {
+	background-image: url("../images/three-col-1.png");
+	float: left;
+	width: 32%;
+	text-align: center;
+	/* padding: 1px 0 189px 0px; */
+	background-repeat: no-repeat;
+	color: white;
+	font-size: 15px;
+	min-height: 400px;
+}
+
+.col-2{
+  background-image: url("../images/three-col-2.png");
+  float: left;
+	width: 32%;
+	text-align: center;
+	/* padding: 1px 0 189px 0px; */
+	background-repeat: no-repeat;
+	color: white;
+	font-size: 15px;
+	min-height: 400px;
+}
+
+.col-3{
+  background-image: url("../images/three-col-3.png");
+  float: left;
+  width: 32%;
+  text-align: center;
+  /* padding: 1px 0 189px 0px; */
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 15px;
+  min-height: 400px;
+}
+
+.block-6::after{
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.col-1:hover{
+
+}
+
+.fcol{
+ width: 25%;
+ float: left;
+ font-family: 'Teko';
+ color: #606060;
+ text-align: center;
+ font-size: 15px;
+}
+
+.footer::after{
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.fai3{
+	background-color: blue;
+	padding: 21px 44px;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: -6px;
+	/* margin-left: 2px; */
+	border-radius: 10px;
+	cursor: pointer;
+	/* padding: 0 0 0px 0; */
+	/* margin: 85px 0px 0px 0px; */
+	border: none;
+ display: none;
+ margin-left: 137px;
+}
+
+.col1text {
+	padding-top: 156px;
+}
+
+ .col-1:hover .fai3{
+  display: block;
+}
+
+.col-2:hover .fai3{
+ display: block;
+}
+
+.col-3:hover .fai3{
+ display: block;
+}
